@@ -9,6 +9,7 @@ export const store = configureStore({
     [baseApi.reducerPath]: baseApi.reducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(baseApi.middleware),
+  devTools: true
 })
 
 setupListeners(store.dispatch)

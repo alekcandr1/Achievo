@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 
 export const baseApi = createApi({
   reducerPath: "todolistsApi",
-  tagTypes: ["Todolist", "Task"],
+  tagTypes: ["Todolist", "Task", "Captcha"],
   keepUnusedDataFor: 5,
   refetchOnFocus: true,
 
