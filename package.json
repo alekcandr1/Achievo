@@ -7,7 +7,9 @@
     "dev": "vite --port 3000",
     "build": "tsc -b && vite build",
     "test": "vitest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "pnpm run build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -17,6 +19,7 @@
     "@mui/material": "6.3.1",
     "@reduxjs/toolkit": "2.5.0",
     "axios": "1.7.9",
+    "gh-pages": "^6.3.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hook-form": "7.54.2",
