@@ -1,11 +1,12 @@
 {
-  "name": "todolist-20",
+  "name": "achievo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alekcandr1.github.io/Achievo",
   "scripts": {
     "dev": "vite --port 3000",
-    "build": "tsc -b && vite build --base=./",
+    "build": "tsc -b && vite build",
     "test": "vitest",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
@@ -25,6 +26,7 @@
     "react-hook-form": "7.54.2",
     "react-redux": "9.2.0",
     "react-router": "7.2.0",
+    "react-router-dom": "7.2.0",
     "zod": "3.24.2"
   },
   "devDependencies": {

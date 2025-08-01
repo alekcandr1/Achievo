@@ -6,6 +6,10 @@ import react from "@vitejs/plugin-react-swc"
 export default defineConfig({
   plugins: [react()],
   base: '/Achievo/',
+
+  // define: { // Добавляем переменные окружения
+  //   'import.meta.env.PUBLIC_URL': JSON.stringify('/Achievo/')
+  // },
   resolve: {
     alias: {
       "@/": `${path.resolve(__dirname, "src")}/`,
