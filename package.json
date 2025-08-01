@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=./",
     "test": "vitest",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
