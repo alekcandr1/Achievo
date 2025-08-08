@@ -41,6 +41,7 @@ export const App = () => {
 
     return (
         <ThemeProvider theme={ theme }>
+            <div className="css">CSS</div>
             {/*<BrowserRouter basename={import.meta.env.BASE_URL}>*/}
                 <div className={ styles.app }>
                     <CssBaseline />
