@@ -16,7 +16,7 @@ export const App = () => {
     const [isInitialized, setIsInitialized] = useState(false)
 
     const themeMode = useAppSelector(selectThemeMode)
-
+    //
     const {data, isLoading} = useMeQuery()
 
     const dispatch = useAppDispatch()
